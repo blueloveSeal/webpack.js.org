@@ -55,7 +55,7 @@ __src/index.js__
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
 +   btn.innerHTML = 'Click me and check the console!';
-+   btn.onclick = printMe;
++   btn.addEventListener('click',printMe);
 +
 +   element.appendChild(btn);
 
